@@ -1,0 +1,22 @@
+package br.com.danillorcb.pattern.strategy.investimentos;
+
+import java.util.Random;
+
+public class Moderado implements EstrategiaInvestimento {
+
+	private Random random;
+	
+	public Moderado() {
+		this.random = new Random();
+	}
+	
+	@Override
+	public double calcula(Conta conta) {
+		if (random.nextInt(2) == 0) {
+			return conta.getSaldo() * 0.025;
+		} else {
+			return conta.getSaldo() * 0.007;
+		}
+	}
+
+}

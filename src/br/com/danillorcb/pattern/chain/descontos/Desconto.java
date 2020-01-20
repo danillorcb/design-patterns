@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.chain;
+package br.com.danillorcb.pattern.chain.descontos;
 
 public interface Desconto {
 	

@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.chain.template.teste;
+package br.com.danillorcb.pattern.chain.descontos;
 
 public class Item {
 

@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.chain;
+package br.com.danillorcb.pattern.chain.descontos;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,5 +1,11 @@
 package br.com.danillorcb.pattern.chain.descontos;
 
+/**
+ * @author danillorcb
+ *
+ * Classe responsável pelas instanciações e encadeamentos dos próximos descontos.
+ * 
+ */
 public class CalculadorDeDescontos {
 	
 	public double calcula(Orcamento orcamento) {

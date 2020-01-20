@@ -3,6 +3,8 @@ package br.com.danillorcb.pattern.chain.request;
 public class ServidorDeAplicacao {
 
 	public void responde(Requisicao req, Conta conta) {
+		
+		// Opção para setar a próxima condição diretamente no construtor 
 		Resposta respFinal = new RespostaFinal();
 		Resposta resp3 = new RespostaPorcento(respFinal);
 		Resposta resp2 = new RespostaCSV(resp3);

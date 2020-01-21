@@ -2,7 +2,7 @@
 
 Padrões de projetos implementados em Java.
 
-## Chain of Responsability
+## Builder
 O Builder pode ser usado quando a classe tiver muitos atributos ou regras de criação, facilitando e organizando a criação do objeto em uma nova classe, além de fornecer uma interface mais clara.
 
 > [Nota Fiscal](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/builder/nf)

@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.builder;
+package br.com.danillorcb.pattern.builder.nf;
 
 public class ItemDaNota {
 

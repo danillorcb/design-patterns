@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.builder;
+package br.com.danillorcb.pattern.builder.nf;
 
 import java.util.Calendar;
 import java.util.List;

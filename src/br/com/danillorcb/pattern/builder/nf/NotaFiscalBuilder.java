@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.builder;
+package br.com.danillorcb.pattern.builder.nf;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -12,7 +12,11 @@ public class NotaFiscalBuilder {
 	private double valorBruto;
 	private double impostos;
 	private String obs;
-	private Calendar dataAtual;
+	private Calendar data;
+	
+	public NotaFiscalBuilder() {
+		this.data = Calendar.getInstance();
+	}
 	
 	public NotaFiscalBuilder paraEmpresa(String razaoSocial) {
 		this.razaoSocial = razaoSocial;
@@ -24,7 +28,7 @@ public class NotaFiscalBuilder {
 		return this;
 	}
 	
-	public NotaFiscalBuilder comItem(ItemDaNota item) {
+	public NotaFiscalBuilder com(ItemDaNota item) {
 		todosItens.add(item);
 		valorBruto += item.getValor();
 		impostos += item.getValor() * 0.05;
@@ -36,12 +40,12 @@ public class NotaFiscalBuilder {
 		return this;
 	}
 	
-	public NotaFiscalBuilder naDataAtual() {
-		this.dataAtual = Calendar.getInstance();
+	public NotaFiscalBuilder naData(Calendar data) {
+		this.data = data;
 		return this;
 	}
 
 	public NotaFiscal build() {
-		return new NotaFiscal(razaoSocial, cnpj, dataAtual, valorBruto, impostos, todosItens, obs);
+		return new NotaFiscal(razaoSocial, cnpj, data, valorBruto, impostos, todosItens, obs);
 	}
 }

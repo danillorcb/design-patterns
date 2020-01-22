@@ -3,7 +3,7 @@
 Padrões de projetos implementados em Java.
 
 ## Builder
-O Builder pode ser usado quando a classe tiver muitos atributos ou regras de criação, facilitando e organizando a criação do objeto em uma nova classe, além de fornecer uma interface mais clara.
+Pode ser usado quando a classe tiver muitos atributos ou regras no construtor, facilitando e organizando a construção do objeto em uma nova classe, além de fornecer uma interface mais clara através dos métodos encadeados (method chain).
 
 > [Nota Fiscal](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/builder/nf)
 
@@ -14,5 +14,10 @@ O padrão pode ser usado quando houver muitas condições, e diante de um encadeame
 
 > [Calculador de Descontos](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/chain/descontos)
 
+## Decorator
+É recomendado o uso quando queremos compor comportamentos a outro comportamento de classes da mesma hierarquia. Isso pode ser definido no momento da instanciação, através do construtor.
 
+> [Impostos Compostos](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/decorator/impostos)
+
+> [Filtro de Conta](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/decorator/filtro)
 

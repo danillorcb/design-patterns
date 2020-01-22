@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.decorator;
+package br.com.danillorcb.pattern.decorator.impostos;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

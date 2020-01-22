@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.decorator;
+package br.com.danillorcb.pattern.decorator.impostos;
 public class ICCC extends Imposto {
 
 	public ICCC(Imposto outroImposto) {

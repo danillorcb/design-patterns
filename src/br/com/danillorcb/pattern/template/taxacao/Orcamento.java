@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.template;
+package br.com.danillorcb.pattern.template.taxacao;
 
 import java.util.ArrayList;
 import java.util.Collections;

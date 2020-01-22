@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.template;
+package br.com.danillorcb.pattern.template.taxacao;
 
 public abstract class TemplateImposto implements Imposto {
 

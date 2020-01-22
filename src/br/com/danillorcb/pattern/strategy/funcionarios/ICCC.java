@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.strategy;
+package br.com.danillorcb.pattern.strategy.funcionarios;
 
 /**
  * Crie o imposto que se chama ICCC, que retorna

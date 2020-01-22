@@ -27,3 +27,18 @@ Manter e organizar estados de uma forma simples, separados em classes da mesma h
 > [Estado da Conta (Positivo/Negativo)](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/state/conta)
 
 > [Estados de um orçamento](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/state/orcamentos)
+
+## Strategy
+Separa o que muda do que não muda em um software, de modo a evitar que o código tenha propagação de mudanças.
+Oferece uma maneira flexível para escrever algoritmos e alternar entre eles com base no objeto passado no construtor, fazendo com que a regra fique encapsulada e o cliente não precise conhecer essas regras, apenas saber qual usar.
+
+> [Impostos dos Funcionários](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/strategy/funcionarios)
+
+> [Tipos de Investimentos](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/strategy/investimentos)
+
+## Template Method
+Fornece uma maneira abtraída (template) de codificar uma regra baseada em uma interface, deixando as particularidades para as classes filhas que extenderem esse template.
+
+> [Relatório simples e completo](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/template/relatorios)
+
+> [Máxima e mínima taxação de imposto](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/template/taxacao)

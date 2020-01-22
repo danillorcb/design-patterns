@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.strategy;
+package br.com.danillorcb.pattern.strategy.funcionarios;
 
 /**
  * Crie todo o mecanismo para flexibilizar a criação de diferentes estratégias de impostos, igual visto no vídeo. 

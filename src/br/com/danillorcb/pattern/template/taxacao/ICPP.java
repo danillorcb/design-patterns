@@ -1,4 +1,4 @@
-package br.com.danillorcb.pattern.template;
+package br.com.danillorcb.pattern.template.taxacao;
 
 public class ICPP extends TemplateImposto {
 

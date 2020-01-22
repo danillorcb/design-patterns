@@ -21,6 +21,11 @@ O padrão pode ser usado quando houver muitas condições, e diante de um encadeame
 
 > [Filtro de Conta](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/decorator/filtro)
 
+## Observer
+Uma classe Subject é quem mantém os dados compartilhados e uma lista de observadores que compartilham o dado. O Observer faz utilização dos dados compartilhados e deve ser atualizado a cada modificação no Subject. Recomendado quando tiver várias ações que compoem uma regra.
+
+> [Ações após gerar Nota Fiscal](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/observer/nf)
+
 ## State
 Manter e organizar estados de uma forma simples, separados em classes da mesma hierarquia, abaixo de uma interface que define os métodos que fazem a transição de estado.
 

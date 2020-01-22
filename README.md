@@ -21,3 +21,9 @@ O padrão pode ser usado quando houver muitas condições, e diante de um encadeame
 
 > [Filtro de Conta](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/decorator/filtro)
 
+## State
+Manter e organizar estados de uma forma simples, separados em classes da mesma hierarquia, abaixo de uma interface que define os métodos que fazem a transição de estado.
+
+> [Estado da Conta (Positivo/Negativo)](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/state/conta)
+
+> [Estados de um orçamento](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/state/orcamentos)

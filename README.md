@@ -14,6 +14,11 @@ O padrão pode ser usado quando houver muitas condições, e diante de um encadeame
 
 > [Calculador de Descontos](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/chain/descontos)
 
+## Command
+Pode ser usado quando queremos colocar em fila a execução de vários comandos de um objeto, fazendo com que esses comandos possam ser executados dinamicamente. Outro uso seria uma espécie de transação, onde a sequência de comandos só seria validada ou não, quando fossem executados métodos de rollback ou commit, por exemplo.
+
+> > [Status de um pedido](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/command/pedido)
+
 ## Decorator
 É recomendado o uso quando queremos compor comportamentos a outro comportamento de classes da mesma hierarquia. Isso pode ser definido no momento da instanciação, através do construtor.
 

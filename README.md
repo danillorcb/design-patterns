@@ -31,6 +31,11 @@ Facilitar a criação de objetos que são complicados. Geralmente é um objeto que n
 
 > [Connection](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/factory/db)
 
+## Flyweight
+Quando temos uma grande quantidade de objetos similares a serem instanciados repetidamente, é ideal que uma classe seja responsável por esse controle, fazendo cache das instâncias para reuso. 
+
+> [Notas Musicais](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/flyweight/musica)
+
 ## Observer
 Uma classe Subject é quem mantém os dados compartilhados e uma lista de observadores que compartilham o dado. O Observer faz utilização dos dados compartilhados e deve ser atualizado a cada modificação no Subject. Recomendado quando tiver várias ações que compoem uma regra.
 

@@ -17,7 +17,7 @@ O padrão pode ser usado quando houver muitas condições, e diante de um encadeame
 ## Command
 Pode ser usado quando queremos colocar em fila a execução de vários comandos de um objeto, fazendo com que esses comandos possam ser executados dinamicamente. Outro uso seria uma espécie de transação, onde a sequência de comandos só seria validada ou não, quando fossem executados métodos de rollback ou commit, por exemplo.
 
-> > [Status de um pedido](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/command/pedido)
+> [Status de um pedido](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/command/pedido)
 
 ## Decorator
 É recomendado o uso quando queremos compor comportamentos a outro comportamento de classes da mesma hierarquia. Isso pode ser definido no momento da instanciação, através do construtor.
@@ -25,6 +25,11 @@ Pode ser usado quando queremos colocar em fila a execução de vários comandos de 
 > [Impostos Compostos](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/decorator/impostos)
 
 > [Filtro de Conta](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/decorator/filtro)
+
+## Factory
+Facilitar a criação de objetos que são complicados. Geralmente é um objeto que não precisa de parâmetros externos a ele para ser criado, a Factory já se encarrega de tudo que precisa para criação e te fornecer o objeto.
+
+> [Connection](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/factory/db)
 
 ## Observer
 Uma classe Subject é quem mantém os dados compartilhados e uma lista de observadores que compartilham o dado. O Observer faz utilização dos dados compartilhados e deve ser atualizado a cada modificação no Subject. Recomendado quando tiver várias ações que compoem uma regra.

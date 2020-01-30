@@ -14,7 +14,17 @@ public class Programa {
 //	    Pattern p2 = new Pattern("V1 I[Flute] Rw     | Rw     | GmajQQQ  CmajQ");
 //	    Player player = new Player();
 //	    player.play(p1, p2);
-		
+
+		// Blues
+//		Pattern pattern = new ChordProgression("I IV V")
+//                .distribute("7%6")
+//                .allChordsAs("$0 $0 $0 $0 $1 $1 $0 $0 $2 $1 $0 $0")
+//                .eachChordAs("$0ia100 $1ia80 $2ia80 $3ia80 $4ia100 $3ia80 $2ia80 $1ia80")
+//                .getPattern()
+//                .setInstrument("Acoustic_Bass")
+//                .setTempo(100);
+//        new Player().play(pattern);
+
 		NotasMusicais notas = new NotasMusicais();
 		
 		List<Nota> doReMiFa = Arrays.asList(
@@ -50,6 +60,6 @@ public class Programa {
 		System.out.println(doReMiFa);
 		
 		Piano piano = new Piano();
-		piano.toca(doReMiFa);
+		//piano.toca(doReMiFa);
 	}
 }

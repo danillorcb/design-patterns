@@ -36,6 +36,11 @@ Quando temos uma grande quantidade de objetos similares a serem instanciados rep
 
 > [Notas Musicais](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/flyweight/musica)
 
+## Memento
+O padrão faz com que os estados sejam mantidos em uma lista/histórico/memória, para futura consulta e restauração dos estados anteriores do objeto. Com ele é possível fazer o famoso Ctrl+Z no objeto.
+
+> [Histórico dos estados de um contrato](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/memento/contrato)
+
 ## Observer
 Uma classe Subject é quem mantém os dados compartilhados e uma lista de observadores que compartilham o dado. O Observer faz utilização dos dados compartilhados e deve ser atualizado a cada modificação no Subject. Recomendado quando tiver várias ações que compoem uma regra.
 

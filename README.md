@@ -39,7 +39,7 @@ Quando temos uma grande quantidade de objetos similares a serem instanciados rep
 ## Interpreter
 Usado quando temos expressões que devem ser avaliadas, e a transformadas em uma estrutura de dados, para depois fazer com que a própria árvore se avalie.
 
-> [Notas Musicais](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/interpreter/expressao)
+> [Expressão Matemática](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/interpreter/expressao)
 
 ## Memento
 O padrão faz com que os estados de um objeto sejam mantidos em uma lista/histórico/memória, para futura consulta e restauração dos estados anteriores. Com ele é possível fazer o famoso Ctrl+Z no objeto.

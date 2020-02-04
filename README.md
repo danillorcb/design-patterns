@@ -72,3 +72,8 @@ Fornece uma maneira abtraída (template) de codificar uma regra baseada em uma in
 > [Relatório simples e completo](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/template/relatorios)
 
 > [Máxima e mínima taxação de imposto](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/template/taxacao)
+
+## Visitor
+É usado quando precisamos navegar sobre uma árvore de maneira organizada, realizando alguma tarefa.
+
+> [Imprimindo a Expressão Matemática](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/visitor/expressao)

@@ -2,6 +2,17 @@
 
 Padrões de projetos implementados em Java.
 
+## Adapter
+Tem o objetivo de fazer duas classes/interfaces incompatíveis trabalhem em conjunto através de abstrações para que não haja acoplamento entre elas.
+Pode ser usado para adaptar um código antigo que não se enquadre ao sistema atual.
+
+> [Data de hoje](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/adapter/calendar)
+
+## Bridge
+Tem o objetivo de fazer a ponte entre dois sistemas/APIs através de abstrações, de forma que não haja acoplamento entre as partes.
+
+> [Mapas](https://github.com/danillorcb/design-patterns/tree/master/src/br/com/danillorcb/pattern/bridge/mapas)
+
 ## Builder
 Pode ser usado quando a classe tiver muitos atributos ou regras no construtor, facilitando e organizando a construção do objeto em uma nova classe, além de fornecer uma interface mais clara através dos métodos encadeados (method chain).
 
